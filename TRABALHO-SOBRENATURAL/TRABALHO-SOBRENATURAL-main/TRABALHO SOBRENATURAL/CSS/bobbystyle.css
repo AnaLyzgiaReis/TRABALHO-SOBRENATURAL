@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0d0d0d;
+  font-family: 'Cinzel', serif;
+  color: #f2f2f2;
+}
+
+header {
+  background-color: #1a1a1a;
+  border-bottom: 2px solid #b30000;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  text-align: center;
+}
+
+.logo-container h1 {
+  color: #b30000;
+  font-size: 36px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+nav a {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff1a1a;
+}
+
+main {
+  padding: 40px 100px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.titulo {
+  font-size: 36px;
+  color: #b30000;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+
+footer {
+  background-color: #1a1a1a;
+  color: #999;
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #333;
+  margin-top: 50px;
+}
+.voltar-inicio {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.voltar-inicio a {
+  background-color: #b30000;
+  color: #fff;
+  padding: 12px 24px;
+  font-family: 'Cinzel', serif;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #b30000;
+  transition: all 0.4s ease;
+  animation: piscar 2s infinite;
+}
+
+.voltar-inicio a:hover {
+  background-color: #ff1a1a;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #ff1a1a;
+}
+
+@keyframes piscar {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.6; }
+}
