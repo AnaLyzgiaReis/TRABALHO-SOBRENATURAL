@@ -67,7 +67,7 @@ h1 {
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 0 10px #b30000;
-  width: 280px;
+  width: 300px;
   text-align: center;
   transition: transform 0.3s;
 }
@@ -155,4 +155,7 @@ footer {
   50% {
     opacity: 0.6;
   }
+}
+.email{
+  font-size: 15px;
 }

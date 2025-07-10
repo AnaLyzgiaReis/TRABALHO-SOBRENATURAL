@@ -9,6 +9,7 @@ body {
 }
 
 .container {
+  
   text-align: center;
   padding: 40px;
 }
@@ -50,6 +51,7 @@ body {
   box-shadow: 0 0 10px #b30000;
   animation: fadein 1s;
 }
+
 
 .local a {
   color: #e60000;
@@ -96,6 +98,12 @@ body {
   padding: 5px 15px;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.2s;
+}
+.botoes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
 }
 
 .botoes button:hover {
@@ -196,8 +204,15 @@ h4 {
   text-align: center;
   color: #fff;
 }
+.interesse{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 .interesse a {
+  
   display: inline-block;
   margin-top: 15px;
   background-color: #b30000;
@@ -207,6 +222,7 @@ h4 {
   border-radius: 10px;
   text-decoration: none;
   animation: piscar 1.5s infinite;
+
 }
 
 @keyframes piscar {
@@ -221,7 +237,6 @@ h4 {
   }
 }
 
-/* Botões do carrossel com cores do site */
 
 .botoes button {
   background-color: #b30000;
@@ -238,3 +253,6 @@ h4 {
   background-color: #ff1a1a;
   transform: scale(1.1);
 }
+
+
+
